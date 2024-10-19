@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: antiquewhite; */
+}
+
+body{
+    background-image: url("bg.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% 200%;
+    background-attachment: fixed;
+}
+
+/* p{
+    background-color: rgb(220, 164, 164);
+} */
+
+#name{
+    background-color:rgba(233, 223, 210, 0.322);
+    color: white;
+    border: dotted;
+}
+
+#email{
+    background-color:rgba(233, 223, 210, 0.322);
+    color: white;
+    border: double;
+}
+
+#message{
+    background-color:rgba(233, 223, 210, 0.322);
+    color: white;
+    border: solid;
+}
+
+.para1{
+    /* background-color: rgb(220, 164, 164); */
+    color: antiquewhite;
+    border: solid black;
+}
+
+p.para2{
+    background-color:rgba(233, 223, 210, 0.322);
+    color:black;
+    border: solid;
+}
+
+.para3{
+    /* background-color: rgb(220, 164, 164); */
+    color: antiquewhite;
+    border: solid black;
+}
+
+.paragraph{
+    /* border: solid wheat; */
+    outline-style: double;
+    outline-color: black;
+    width: 50%;
+    outline-offset: 20px;
+}
+
+.form{
+    outline-style: double;
+    outline-color: black;
+    width: 50%;
+    outline-offset: 20px;
+}

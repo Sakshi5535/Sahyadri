@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+      }
+
+      .container {
+        display: flex;
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        max-width: 600px;
+        height: 450px;
+        width: 100%;
+      }
+
+      .login-box,
+      .welcome-box {
+        padding: 20px;
+      }
+
+      .login-box {
+        flex: 1;
+        background-color: #f8f8f8;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-right: 1px solid #ccc;
+      }
+
+      .login-box h2 {
+        margin-bottom: 20px;
+        font-size: 24px;
+      }
+
+      .login-box input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      .login-box button {
+        width: 100%;
+        padding: 10px;
+        background-color: #ac6280;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .login-box button:hover {
+        background-color: #ac6280;
+      }
+
+      .welcome-box {
+        flex: 1;
+        background-color: #ac6280;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .welcome-box h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: left;
+      }
+
+      .welcome-box p {
+        margin-bottom: 20px;
+        text-align: left;
+        line-height: 1.5;
+      }
+
+      .welcome-box a {
+        color: white;
+        text-decoration: underline;
+        background-color:#b6778f;
+        width: 220px;
+        height: 40px;
+        text-align: center;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-box">
+        <h2>Signin</h2>
+        <form>
+          <input type="text" placeholder="Username" required />
+          <input type="password" placeholder="Password" required />
+          <button type="submit">Signin</button><br>
+          <br><p>or signin with</p>
+        </form>
+      </div>
+      <div class="welcome-box">
+        <h2>Welcome back!</h2>
+        <p>
+          Welcome back! We are so happy to have you here. It's great to see you
+          again. We hope you had a safe and enjoyable time away.
+        </p>
+        <a href="#">No account yet? Signup.</a>
+      </div>
+    </div>
+  </body>
+</html>
