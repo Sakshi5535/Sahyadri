@@ -50,3 +50,10 @@ ul.b {
     list-style-type: upper-roman;
     list-style-position: inside;
 }
+
+p.para {
+    background-color: burlywood;
+    /* width:calc(100% - 300px); */
+    /* width: min(100%, 300px); */
+    width: max(30%, 300px);
+}
