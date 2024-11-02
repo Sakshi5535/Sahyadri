@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #005f73;
+    background-color: #301c419e;
     color: #fff;
 }
 
@@ -75,7 +75,7 @@ main {
 
 h2 {
     font-size: 24px;
-    color: #005f73;
+    color: #75578f9e;
     margin-bottom: 10px;
 }
 
@@ -95,7 +95,7 @@ ul {
 }
 
 #services h2, #about h2, #contact h2 {
-    color: #005f73;
+    color: #301c419e;
 }
 
 #services ul li, #about p, #contact p {
@@ -103,7 +103,7 @@ ul {
 }
 
 footer {
-    background-color: #005f73;
+    background-color: #301c419e;
     color: #fff;
     text-align: center;
     padding: 10px 0;
