@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fabrication Shop</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100 text-gray-700">
+    <!-- Navbar -->
+    <nav class="bg-gray-700 text-white py-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Fabrication Shop</h1>
+        <ul class="flex space-x-6">
+          <li><a href="#home" class="hover:text-yellow-500">Home</a></li>
+          <li>
+            <a href="#services" class="hover:text-yellow-500">Services</a>
+          </li>
+          <li>
+            <a href="#shop" class="hover:text-yellow-500">Shop</a>
+          </li>
+          <li><a href="#contact" class="hover:text-yellow-500">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <br />
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="bg-cover bg-center h-screen text-white flex items-center justify-center"
+      style="background-image: url('Images/fab.jpg')"
+    >
+      <div class="text-center">
+        <h2 class="text-4xl font-bold">Your Trusted Fabrication Experts</h2>
+        <p class="mt-4">
+          Quality metalwork and fabrication solutions tailored to your needs.
+        </p>
+        <a
+          href="#contact"
+          class="mt-6 inline-block px-6 py-3 bg-yellow-500 text-black font-bold rounded hover:bg-yellow-400"
+          >Get a Quote</a
+        >
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16">
+      <div class="container mx-auto text-center">
+        <h3 class="text-3xl font-bold mb-8">Our Services</h3>
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full md:w-1/3 px-4 mb-8">
+            <div class="bg-gray-300 p-6 rounded shadow hover:shadow-lg transition">
+              <h4 class="text-xl font-semibold mb-4">Custom Fabrication</h4>
+              <p>
+                Tailor-made metal solutions designed to meet your unique
+                requirements.
+              </p>
+            </div>
+          </div>
+          <div class="w-full md:w-1/3 px-4 mb-8">
+            <div class="bg-gray-300 p-6 rounded shadow hover:shadow-lg transition">
+              <h4 class="text-xl font-semibold mb-4">Welding Services</h4>
+              <p>
+                Precision welding services ensuring durability and high
+                performance.
+              </p>
+            </div>
+          </div>
+          <div class="w-full md:w-1/3 px-4 mb-8">
+            <div class="bg-gray-300 p-6 rounded shadow hover:shadow-lg transition">
+              <h4 class="text-xl font-semibold mb-4">Metal Cutting</h4>
+              <p>
+                Accurate and efficient metal cutting for various industrial
+                needs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <!-- Shopping Section -->
+    <section id="shop" class="py-16 bg-gray-300">
+      <div class="container mx-auto text-center">
+        <h3 class="text-3xl font-bold mb-8">Shop Our Products</h3>
+        <div class="flex flex-wrap -mx-4">
+          <!-- Product 1 -->
+          <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-8">
+            <div class="bg-white rounded shadow-lg overflow-hidden">
+              <img
+                src="Images/workbench.jpg"
+                alt="Product 1"
+                class="w-full h-80 object-cover"
+              />
+              <div class="p-4">
+                <h4 class="text-lg font-semibold">Metal Workbench</h4>
+                <p class="text-gray-600 mt-2">
+                  Durable metal workbench suitable for all fabrication needs.
+                </p>
+                <p class="text-yellow-500 font-bold mt-4">Rs.10,000</p>
+                <button
+                  class="mt-4 px-6 py-2 bg-yellow-500 text-white font-bold rounded hover:bg-yellow-400"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Product 2 -->
+          <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-8">
+            <div class="bg-white rounded shadow-lg overflow-hidden">
+              <img
+                src="Images/table.jpg"
+                alt="Product 2"
+                class="w-full h-80 object-cover"
+              />
+              <div class="p-4">
+                <h4 class="text-lg font-semibold">Welding Table</h4>
+                <p class="text-gray-600 mt-2">
+                  Heavy-duty welding table with adjustable height.
+                </p>
+                <p class="text-yellow-500 font-bold mt-4">Rs.20,000</p>
+                <button
+                  class="mt-4 px-6 py-2 bg-yellow-500 text-white font-bold rounded hover:bg-yellow-400"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Product 3 -->
+          <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-8">
+            <div class="bg-white rounded shadow-lg overflow-hidden">
+              <img
+                src="Images/rack.jpg"
+                alt="Product 3"
+                class="w-full h-80 object-cover"
+              />
+              <div class="p-4">
+                <h4 class="text-lg font-semibold">Steel Storage Rack</h4>
+                <p class="text-gray-600 mt-2">
+                  Multi-tier steel rack for efficient storage solutions.
+                </p>
+                <p class="text-yellow-500 font-bold mt-4">Rs.15,000</p>
+                <button
+                  class="mt-4 px-6 py-2 bg-yellow-500 text-white font-bold rounded hover:bg-yellow-400"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Add more products as needed -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-800 text-white">
+      <div class="container mx-auto text-center">
+        <h3 class="text-3xl font-bold mb-8">Contact Us</h3>
+        <form class="max-w-lg mx-auto bg-gray-900 p-8 rounded shadow-lg">
+          <div class="mb-4">
+            <label for="name" class="block text-sm font-semibold mb-2"
+              >Name</label
+            >
+            <input
+              type="text"
+              id="name"
+              class="w-full px-4 py-2 rounded bg-gray-700 text-white"
+            />
+          </div>
+          <div class="mb-4">
+            <label for="email" class="block text-sm font-semibold mb-2"
+              >Email</label
+            >
+            <input
+              type="email"
+              id="email"
+              class="w-full px-4 py-2 rounded bg-gray-700 text-white"
+            />
+          </div>
+          <div class="mb-4">
+            <label for="message" class="block text-sm font-semibold mb-2"
+              >Message</label
+            >
+            <textarea
+              id="message"
+              class="w-full px-4 py-2 rounded bg-gray-700 text-white"
+            ></textarea>
+          </div>
+          <button
+            class="px-6 py-3 bg-yellow-500 text-black font-bold rounded hover:bg-yellow-400"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-4">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2024 Fabrication Shop. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
