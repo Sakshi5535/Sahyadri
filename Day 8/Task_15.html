@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Event Timeline</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6">
+  <div class="max-w-4xl mx-auto">
+ 
+    <div class="relative">
+
+      <div class="absolute left-4 top-0 h-full w-1 bg-gray-300 md:left-1/2 md:translate-x-[-50%]"></div>
+
+      <div class="relative flex flex-col md:flex-row items-start md:items-center md:justify-between mb-12">
+        <div class="absolute top-0 left-0 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold md:left-1/2 md:translate-x-[-50%]">
+          +
+        </div>
+        <div class="ml-12 md:ml-0 md:w-1/2 bg-white shadow-lg p-4 rounded-lg">
+          <h3 class="text-lg font-bold">v3.2.0 <span class="text-sm text-green-600">Feature</span></h3>
+          <p class="text-gray-500 text-sm mb-2">10h ago</p>
+          <ul class="list-disc ml-5 text-gray-600 text-sm">
+            <li>Added a user profile page for personalized settings.</li>
+            <li>Implemented a dark mode for improved user experience at night.</li>
+            <li>Introduced real-time notifications for instant updates.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="relative flex flex-col md:flex-row-reverse items-start md:items-center md:justify-between mb-12">
+        <div class="absolute top-0 left-0 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold md:left-1/2 md:translate-x-[-50%]">
+          +
+        </div>
+        <div class="ml-12 md:ml-0 md:w-1/2 bg-white shadow-lg p-4 rounded-lg">
+          <h3 class="text-lg font-bold">v3.1.0 <span class="text-sm text-green-600">Feature</span></h3>
+          <p class="text-gray-500 text-sm mb-2">9h ago</p>
+          <ul class="list-disc ml-5 text-gray-600 text-sm">
+            <li>Improved performance by optimizing database queries.</li>
+            <li>Enhanced security measures to protect user data.</li>
+            <li>Streamlined the user interface for a more intuitive experience.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="relative flex flex-col md:flex-row items-start md:items-center md:justify-between">
+        <div class="absolute top-0 left-0 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold md:left-1/2 md:translate-x-[-50%]">
+          +
+        </div>
+        <div class="ml-12 md:ml-0 md:w-1/2 bg-white shadow-lg p-4 rounded-lg">
+          <h3 class="text-lg font-bold">v3.0.10 <span class="text-sm text-red-600">Bug</span></h3>
+          <p class="text-gray-500 text-sm mb-2">6h ago</p>
+          <ul class="list-disc ml-5 text-gray-600 text-sm">
+            <li>Resolved a critical issue causing crashes on certain devices.</li>
+            <li>Fixed a login error that prevented some users from accessing their accounts.</li>
+            <li>Addressed a display glitch causing text overflow in long messages.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
